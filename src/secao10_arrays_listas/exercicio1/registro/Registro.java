@@ -1,7 +1,5 @@
 package secao10_arrays_listas.exercicio1.registro;
-
 import secao10_arrays_listas.exercicio1.entities.Employee;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
