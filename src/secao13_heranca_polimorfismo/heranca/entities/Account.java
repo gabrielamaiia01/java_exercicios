@@ -3,7 +3,7 @@ package secao13_heranca_polimorfismo.heranca.entities;
 public class Account {
     private Integer number;
     private String holder;
-    private Double balance;
+    public Double balance;
 
     public Account(){}
 
@@ -34,7 +34,7 @@ public class Account {
     }
 
     public void withdraw(double amount){
-        balance = balance - amount;
+        balance -= amount + 5.00 ;
     }
 
     public void deposit(double amount){

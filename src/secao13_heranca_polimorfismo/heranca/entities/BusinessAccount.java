@@ -30,6 +30,14 @@ public class BusinessAccount extends Account {
         if(amount <= loanLimit){
             deposit(amount);
         }
-
     }
+
+    @Override
+    public void withdraw(double amount){
+        super.withdraw(amount); //efetuano o saque normal vindo da superClasse
+        balance -= 2.0; //Também descontando do Saque 2.00
+
+        //Super - reutilizando o código da SuperClasse
+    }
+
 }
