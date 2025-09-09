@@ -1,6 +1,6 @@
 package secao13_heranca_polimorfismo.heranca.entities;
 
-public class Account {
+public class  Account {
     private Integer number;
     private String holder;
     public Double balance;
